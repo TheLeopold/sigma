@@ -2,6 +2,7 @@
 	cost = 5
 	unit_name = "Ambrosia Vulgaris"
 	export_types = list(/obj/item/reagent_containers/food/snacks/grown/ambrosia)
+	exclude_types = list(obj/item/reagent_containers/food/snacks/grown/ambrosia/deus, obj/item/reagent_containers/food/snacks/grown/ambrosia/gaia)
 
 /datum/export/grown/ambrosiadeus
 	cost = 15
@@ -17,6 +18,7 @@
 	cost = 5
 	unit_name = "Apple"
 	export_types = list(/obj/item/reagent_containers/food/snacks/grown/apple)
+	exclude_types = list(/obj/item/reagent_containers/food/snacks/grown/apple/gold)
 
 /datum/export/grown/Goldpple
 	cost = 30
@@ -27,6 +29,7 @@
 	cost = 5
 	unit_name = "Banana"
 	export_types = list(/obj/item/reagent_containers/food/snacks/grown/banana)
+	exclude_types = list(/obj/item/reagent_containers/food/snacks/grown/banana/mime, /obj/item/reagent_containers/food/snacks/grown/banana/bluespace)
 
 /datum/export/grown/mimana
 	cost = 15
@@ -52,6 +55,7 @@
 	cost = 5
 	unit_name = "Berries"
 	export_types = list(/obj/item/reagent_containers/food/snacks/grown/berries)
+	exclude_types = list(/obj/item/reagent_containers/food/snacks/grown/berries/poison, /obj/item/reagent_containers/food/snacks/grown/berries/death, /obj/item/reagent_containers/food/snacks/grown/berries/glow)
 
 /datum/export/grown/poisonBerries
 	cost = 15
@@ -87,6 +91,7 @@
 	cost = 5
 	unit_name = "Grapes"
 	export_types = list(/obj/item/reagent_containers/food/snacks/grown/grapes)
+	exclude_types = list(/obj/item/reagent_containers/food/snacks/grown/grapes/green)
 
 /datum/export/grown/greengrapes
 	cost = 5
@@ -97,6 +102,7 @@
 	cost = 20
 	unit_name = "Cannabis"
 	export_types = list(/obj/item/reagent_containers/food/snacks/grown/cannabis)
+	exclude_types = list(/obj/item/reagent_containers/food/snacks/grown/cannabis/rainbow, /obj/item/reagent_containers/food/snacks/grown/cannabis/death, /obj/item/reagent_containers/food/snacks/grown/cannabis/white, /obj/item/reagent_containers/food/snacks/grown/cannabis/ultimate)
 
 /datum/export/grown/rainbowcannabis
 	cost = 25
@@ -227,6 +233,7 @@
 	cost = 1
 	unit_name = "Poppy"
 	export_types = list(/obj/item/reagent_containers/food/snacks/grown/poppy)
+	exclude_types = list(/obj/item/reagent_containers/food/snacks/grown/poppy/lily, /obj/item/reagent_containers/food/snacks/grown/poppy/geranium)
 
 /datum/export/grown/lily
 	cost = 1
@@ -272,6 +279,7 @@
 	cost = 1
 	unit_name = "Grass"
 	export_types = list(/obj/item/reagent_containers/food/snacks/grown/grass)
+	exclude_types = list(/obj/item/reagent_containers/food/snacks/grown/grass/fairy, /obj/item/reagent_containers/food/snacks/grown/grass/carpet)
 
 /datum/export/grown/fairygrass
 	cost = 20
@@ -302,6 +310,7 @@
 	cost = 1
 	unit_name = "Starthistle"
 	export_types = list(/obj/item/seeds/starthistle)
+	exclude_types = list(/obj/item/seeds/starthistle/corpse_flower)
 
 /datum/export/grown/corpseflower
 	cost = 50
@@ -367,6 +376,7 @@
 	cost = 5
 	unit_name = "Nettles"
 	export_types = list(/obj/item/reagent_containers/food/snacks/grown/nettle)
+	exclude_types = list(/obj/item/reagent_containers/food/snacks/grown/nettle/death)
 
 /datum/export/grown/deathnettles
 	cost = 25
@@ -377,6 +387,7 @@
 	cost = 5
 	unit_name = "Onion Sprouts"
 	export_types = list(/obj/item/reagent_containers/food/snacks/grown/onion)
+	exclude_types = list(/obj/item/reagent_containers/food/snacks/grown/onion/red)
 
 /datum/export/grown/onion_red
 	cost = 5
@@ -392,6 +403,7 @@
 	cost = 5
 	unit_name = "Potato"
 	export_types = list(/obj/item/reagent_containers/food/snacks/grown/potato)
+	exclude_types = list(/obj/item/reagent_containers/food/snacks/grown/potato/sweet)
 
 /datum/export/grown/sweetpotato
 	cost = 10
@@ -442,6 +454,7 @@
 	cost = 10
 	unit_name = "Tea"
 	export_types = list(/obj/item/reagent_containers/food/snacks/grown/tea)
+	exclude_types = list(/obj/item/reagent_containers/food/snacks/grown/tea/astra)
 
 /datum/export/grown/teaastra
 	cost = 20
@@ -452,6 +465,7 @@
 	cost = 10
 	unit_name = "Coffee"
 	export_types = list(/obj/item/reagent_containers/food/snacks/grown/coffee)
+	exclude_types = list(/obj/item/reagent_containers/food/snacks/grown/coffee/robusta)
 
 /datum/export/grown/coffeer
 	cost = 20
@@ -462,6 +476,7 @@
 	cost = 10
 	unit_name = "Tobacco"
 	export_types = list(/obj/item/reagent_containers/food/snacks/grown/tobacco)
+	exclude_types = list(/obj/item/reagent_containers/food/snacks/grown/tobacco/space)
 
 /datum/export/grown/stobacco
 	cost = 15
@@ -472,6 +487,7 @@
 	cost = 5
 	unit_name = "Tomato"
 	export_types = list(/obj/item/reagent_containers/food/snacks/grown/tomato)
+	exclude_types = list(/obj/item/reagent_containers/food/snacks/grown/tomato/blood, /obj/item/reagent_containers/food/snacks/grown/tomato/blue, /obj/item/reagent_containers/food/snacks/grown/tomato/blue/bluespace, /obj/item/reagent_containers/food/snacks/grown/tomato/killer)
 
 /datum/export/grown/bloodtomato
 	cost = 10
@@ -497,6 +513,7 @@
 	cost = 5
 	unit_name = "Tower Caps"
 	export_types = list(/obj/item/grown/log)
+	exclude_types = list(/obj/item/grown/log/steel, /obj/item/grown/log/bamboo)
 
 /datum/export/grown/steelcap
 	cost = 10
